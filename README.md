@@ -1,4 +1,72 @@
 NSDate-Time-Ago
 ===============
 
-Implements Facebook's format for Time Ago (on their mobile apps)
+# Facebook Style Formatting of Dates (Time Ago)
+
+I was really surprised that I couldn't find an iOS date formatter which implemented the Facebook style "Time Ago" format so I whipped one up myself.  I reverse engineered the Facebook format, so this should be pretty accurate.  Feel free to use it in your projects / improve it.
+
+Hope you enjoy :)
+
+If you have any questions feel free to contact me here: www.nikilster.com/about.html
+
+
+
+
+
+## Date Format
+ < 1 minute       	= "Just now"
+
+ < 1 hour         	= "x minutes ago"
+
+ Today            	= "x hours ago"
+
+ Yesterday        	= "Yesterday at 1:28pm"
+
+ < Last 7 days    	= "Friday at 1:48am"
+
+ < Last 30 days   	= "March 30 at 1:14 pm"
+
+ < 1 year         	= "September 15"
+
+ Anything else    	= "September 9, 2011"
+
+
+
+
+
+
+## About
+* This NSDate category adds the facebook style "time ago" date formatting.
+* This mimics Facebook mobile (the desktop version has slightly different date formatting).
+* This assumes all dates are in the past.
+
+
+
+
+
+##To use this in your iOS project:
+1. Drag both NSDate+NVTimeAgo.m aand NSDate+NVTimeAgo.h into your iOS project in XCode
+2. In the files that you want to use this functionality in,itType: 
+    
+        #import "NSDate+NVTimeAgo.h" 
+
+    somewhere near the top of your file.
+
+3. Use the date formatter on a date by calling:   
+
+    [date formattedAsTimeAgo];
+
+   where date is an (NSDate *) and represents a date IN THE PAST (relative to now).
+
+
+   If you have a mysql datetime string and you want to convert it to the time ago format, do:
+
+   NSString *mysqlDatetime = <Get from the database>
+   NSString *timeAgoFormattedDate = [NSDate mysqlDatetimeFormattedAsTimeAgo:mysqlDatetime];
+
+
+
+
+Made By Nikil Viswanathan on 4/18/2013
+You can contact me on: www.nikilster.com
+
