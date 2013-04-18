@@ -1,9 +1,6 @@
-NSDate-Time-Ago
-===============
-
 # Facebook Style Formatting of Dates (Time Ago)
 
-I was really surprised that I couldn't find an iOS date formatter which implemented the Facebook style "Time Ago" format so I whipped one up myself.  I reverse engineered the Facebook format, so this should be pretty accurate.  Feel free to use it in your projects / improve it.
+I was really surprised that I couldn't find an iOS date formatter which implemented the Facebook style "Time Ago" format so I whipped one up myself.  I reverse engineered the Facebook format, so hopefully this should be pretty accurate.  Feel free to use it in your projects / improve it.
 
 Hope you enjoy :)
 
@@ -14,21 +11,21 @@ If you have any questions feel free to contact me here: www.nikilster.com/about.
 
 
 ## Date Format
- < 1 minute       	= "Just now"
+ < 1 minute 		= "Just now"
 
- < 1 hour         	= "x minutes ago"
+ < 1 hour 			= "x minutes ago"
 
- Today            	= "x hours ago"
+ Today 				= "x hours ago"
 
- Yesterday        	= "Yesterday at 1:28pm"
+ Yesterday 			= "Yesterday at 1:28pm"
 
- < Last 7 days    	= "Friday at 1:48am"
+ < Last 7 days 		= "Friday at 1:48am"
 
- < Last 30 days   	= "March 30 at 1:14 pm"
+ < Last 30 days 	= "March 30 at 1:14 pm"
 
- < 1 year         	= "September 15"
+ < 1 year 			= "September 15"
 
- Anything else    	= "September 9, 2011"
+ Anything else 		= "September 9, 2011"
 
 
 
