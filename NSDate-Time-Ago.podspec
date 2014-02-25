@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 	}
 
 	s.author	=	{
-			'Nikil Viswanathan' => 'nikil@stanford.edu'
+			'Nikil Viswanathan' => 'nikil@stanford.edu’
 	}
 
 	s.source 	= {
