@@ -60,7 +60,6 @@ Nikil Viswanathan on 4/18/2013
 
 You can contact me on: www.nikilster.com
 
-
+<br/>
 ## Credits
-
 Thanks to <a href="https://github.com/dellinger" target="_BLANK">dellinger</a> for making it into a CocoaPod.
