@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 	s.homepage 	= 'https://github.com/nikilster/NSDate-Time-Ago'
 	s.license 	= {
 			:type => 'APACHE 2.0',
-			:file => 'LICENSE'
+			:file => 'LICENSE.md'
 	}
 
 	s.author	=	{
