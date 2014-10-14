@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 	s.name 		= 'NSDate-Time-Ago'
-	s.version 	= '1.0'
+	s.version 	= '1.0.1'
 	s.summary 	= 'Implements Facebooks format for Time Ago (on their mobile apps)'
 	s.homepage 	= 'https://github.com/nikilster/NSDate-Time-Ago'
 	s.license 	= {
