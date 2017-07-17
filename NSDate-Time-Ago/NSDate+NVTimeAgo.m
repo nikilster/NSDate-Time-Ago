@@ -46,7 +46,7 @@
 {    
     //Now
     NSDate *now = [NSDate date];
-    NSTimeInterval secondsSince = -(int)[self timeIntervalSinceDate:now];
+    NSTimeInterval secondsSince = -(NSInteger)[self timeIntervalSinceDate:now];
     
     //Should never hit this but handle the future case
     if(secondsSince < 0)
