@@ -8,6 +8,7 @@ If you have any questions feel free to contact me here: www.nikilster.com/about.
 
 <br/>
 ## Date Format  
+
  < 1 minute &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =  &nbsp; "Just now"
 
  < 1 hour &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = "x minutes ago"
