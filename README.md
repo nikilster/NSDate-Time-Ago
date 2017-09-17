@@ -22,7 +22,7 @@ If you have any questions feel free to contact me here: www.nikilster.com/about.
 
  < Last 30 days  &nbsp; &nbsp; &nbsp; = "March 30 at 1:14 pm"
 
- < 1 year  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = "September 15"
+ < 1 year  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = "September 15"
 
  Anything else   &nbsp; &nbsp; &nbsp; &nbsp; = "September 9, 2011"
 
