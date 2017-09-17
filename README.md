@@ -34,6 +34,7 @@ If you have any questions feel free to contact me here: www.nikilster.com/about.
 * This assumes all dates are in the past.
 
 <br/>
+
 ##To use this in your iOS project:
 1. Drag both NSDate+NVTimeAgo.m aand NSDate+NVTimeAgo.h into your iOS project in XCode
 2. In the files that you want to use this functionality in,itType: 
